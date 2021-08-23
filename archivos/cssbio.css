@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.fotitos{
+    width: 40%;
+    height: 25%;
+    padding-right: 5%;
+}
+.grancaja{
+    width: 90%;
+    padding-left: 5%;
+}
+h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.primeracaja{
+    display: flex;
+    line-height: 2;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    text-align: justify;
+}
+.container{
+    line-height: 2;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    text-align: justify;
+}
+@media (max-width:767px){
+    .fotitos{
+        width: 90%;
+        padding-left: 5%;
+    }
+    .primeracaja{
+        display: contents;
+    }
+}

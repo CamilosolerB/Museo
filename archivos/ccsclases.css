@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+.frase{
+    font-family: 'Dancing Script', cursive;
+}
+.surrealista{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 5%;
+}
+.titulo{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+.content{
+    font-family: 'Dancing Script', cursive;
+}
+.presentation{
+    padding-left: 10%;
+}
+.imagenes{
+    width: 40%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    height: 500px;
+
+}
+.hogar{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 100;
+    padding-left: 5%;
+}
+@media (max-width: 767px){
+    .imagenes{
+        width: 90%;
+        padding-left: 5%;
+        padding-bottom: 5%;
+    }
+    .presentation{
+        padding-left: 5%;
+    }
+}

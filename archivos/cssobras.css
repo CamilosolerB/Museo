@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+h1{
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+.master{
+    width: 80%;
+    position:relative;
+    padding-left: 10%;
+    padding-bottom: 10%;
+    font-family: "Source Sans Pro",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+}
+.introduccion p{
+    line-height: 2;
+    text-align: justify;
+}
+.obra1{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra1 img{
+    padding-right: 10px;
+}
+.obra2{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra2 img{
+    padding-left: 10px;
+}
+.obra3{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra3 img{
+    padding-right: 10px;
+}
+.obra4{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra4 img{
+    padding-left: 10px;
+}
+.obra5{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra5 img{
+    padding-right: 10px;
+}
+.obra6{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra6 img{
+    padding-left: 10px;
+}
+.obra7{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra7 img{
+    padding-right: 10px;
+}
+.obra8{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra8 img{
+    padding-left: 10px;
+}
+.obra9{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra9 img{
+    padding-right: 10px;
+}
+.obra10{
+    display: flex;
+    line-height: 2;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+}
+.obra10 img{
+    padding-left: 10px;
+}
+.imagenes{
+    width: 40%;
+    height: 50%;
+}
+@media (max-width: 767px){
+    .obra1{
+        display: contents;
+    }
+    .obra2{
+        display: contents;
+    }
+    .obra3{
+        display: contents;
+    }
+    .obra4{
+        display: contents;
+    }
+    .obra5{
+        display: contents;
+    }
+    .obra6{
+        display: contents;
+    }
+    .obra7{
+        display: contents;
+    }
+    .obra8{
+        display: contents;
+    }
+    .obra9{
+        display: contents;
+    }
+    .obra10{
+        display: contents;
+    }
+
+    .imagenes{
+        width: 90%;
+        padding-left: 5%;
+        height: 100%;
+    }
+}

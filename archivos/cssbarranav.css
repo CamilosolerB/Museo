@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+
+body{
+    background-color: #f4f4f4;
+    margin: 0;
+}
+header{
+
+    font-family: 'Merriweather', serif;
+    color: #fff;
+
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.encabezado a{
+    text-decoration: none;
+    color: #fff;
+}
+.flexible{
+    display: flex;
+    align-items: center;
+}
+.menu ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    display: inline-block;
+}
+.menu li a{
+    display: block;
+    padding: 15px;
+    transition: all 1s;
+    border-radius: 7px;
+}
+.menu li a:hover{
+    background-color: #fff;
+    color: #333;
+}
+.menu-icon{
+    display: none;
+}
+.encabezado { 
+  background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+  background-size: 1800% 1800%;
+  
+  -webkit-animation: rainbow 18s ease infinite;
+  -z-animation: rainbow 18s ease infinite;
+  -o-animation: rainbow 18s ease infinite;
+    animation: rainbow 18s ease infinite;}
+  
+  @-webkit-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-moz-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @-o-keyframes rainbow {
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+  @keyframes rainbow { 
+      0%{background-position:0% 82%}
+      50%{background-position:100% 19%}
+      100%{background-position:0% 82%}
+  }
+
+  footer{
+    background-color: rgb(31,75,123);
+    text-align: center;
+    color: #fff;
+    display: flex;
+}
+.pie{
+    width: 15%;
+    position: relative;
+    align-items: center;
+    left: 30%;
+
+}
+.pie input{
+    padding: 15px;
+    color: #fff;
+    background-color: rgb(31,75,123);
+    margin: 0;
+    width: 400px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-color: #fff;
+    text-align: center;
+}
+.btnform{
+    border-color: #fff;
+    background-color: #fff;
+    color: #000;
+}
+.general{
+    width: 25%;
+    position: relative;
+    left: 12%;
+}
+@media (max-width: 767px){
+    .menu-icon{
+       display: block; 
+       cursor: auto;
+       padding: 15px;
+    }
+    .menu ul{
+        display: none;
+    }
+    .menu ul.show{
+        display: block;
+    }
+    .menu{
+        width: 100%;
+    }
+    .menu li{
+        display: block;
+    }
+    .menu li a{
+        display: block;
+        padding: 15px;
+        transition: all 1s;
+        border-radius: 7px;
+    }
+    .menu li a:hover{
+        background-color: #fff;
+        color: #333;
+    }
+    .logo{
+        width: 110px;
+        height: 110px;
+    }
+    .flexible a{
+        font-size: medium;
+    }
+    footer{
+        text-align: center;
+        display: block;
+        flex-wrap: nowrap;
+    }
+    .general{
+        width: 100%;
+        position: static;
+    }
+    .pie{
+        width: 100%;
+        position: static; 
+    }
+    .pie input{
+        width: 80%;
+    }
+}

@@ -1,0 +1,113 @@
+ol{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+.firts-day-sep{
+    grid-column-start: 3;
+}
+.firts-day-oct{
+    grid-column-start: 5;
+}
+.octubre{
+    width: 380px;
+    text-align: center;
+}
+.noviembre{
+    width: 380px;
+    text-align: center;
+}
+.noviembre p{
+    text-align: center;
+}
+.Septiembre p{
+    text-align: center;
+}
+.octubre p{
+    text-align: center;
+}
+
+.Septiembre{
+    width: 380px;
+    text-align: center;
+}
+.day-name{
+    background-color: #eee;
+    font-weight: bold;
+}
+.calendarios{
+    display: flex;
+}
+.color{
+    background-color: blue;
+    color: #eee;
+}
+h1{
+    text-align: center;
+}
+.Septiembre li:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+.octubre li:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+.noviembre li:hover{
+    background-color: aqua;
+    transition: 1s;
+}
+.formulario{
+    width: 40%;
+    line-height: 3;
+    background-color: #00b1b3;
+    position: relative;
+    left: 30%;
+    align-items: center;
+    padding: 2%;
+    margin-bottom: 5%;
+}
+.formulario input{
+    width: 80%;
+    margin-left: 5%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    text-align: center;
+    font-size: 1rem;
+}
+.reservar{
+    padding-left: 10%;
+}
+@media (max-width:767px) {
+    .calendarios{
+        display: contents;
+        width: 70%;
+    }
+    .Septiembre{
+        width: 90%;
+        padding-left: 2.5%;
+    }
+    .octubre{
+        width: 90%;
+        padding-left: 2.5%;
+    }
+    .noviembre{
+        width: 90%;
+        padding-left: 2.5%;   
+    }
+    ol{
+        padding: 0;
+    }
+    .formulario{
+        width: 90%;
+        position:static;
+    }
+    h1{
+        font-size: medium;
+    }
+    h2{
+        font-size: medium;
+        text-align: center;
+    }
+    
+}
